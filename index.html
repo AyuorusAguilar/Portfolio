@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/project-detail.css">
+	<title>Ayuorus - Portfolio</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="logo">
+				<img src="img/star-svgrepo-com.svg" class="logic">
+			</div>
+			<nav>
+				<a href="#about">Sobre mi</a>
+				<a href="#services">Proyectos</a>
+				<a href="#contact" class="contact-btn">Contactame</a>
+			</nav>
+		</header>
+		
+		<section class="hero">
+			<div class="hero-content">
+				<h1>Hola! Bienvenido<br>a mi portafolio!</h1>
+				<p>Soy un desarrollador de software con una gran pasión por la lógica y el <i>ui desing</i>. Me gustan mucho los videojuegos, es de ahí de donde vienen mis influencias de diseño y fueron también los que me inspiraron a volverme programador.</p>
+				<button class="hire-btn">Contactame</button>
+				
+				<div class="skills">
+					<span class="skill-tag orange">JavaScript</span>
+					<span class="skill-tag orange">php</span>
+					<span class="skill-tag black">Vue</span>
+					<span class="skill-tag black">React</span>
+					<span class="skill-tag black">Medoo</span>
+					<span class="skill-tag black">Laravel</span>
+					<span class="skill-tag black">Lua</span>
+				</div>
+			</div>
+			
+			<div class="hero-image">
+				<div class="profile-circle">
+					<div class="profile-image">
+						<img src="img/porta cuadrado.png" class="profile-pic">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="projects">
+			<div class="projects-header">
+				<h2>Proyectos</h2>
+			</div>
+			
+			<div class="projects-grid">
+				<a href="#clever">
+					<div class="project-card">
+						<div class="project-image">
+							<img src="img/clever_thumbnail.png" alt="">
+							<div class="project-number">1</div>
+						</div>
+						<h3 class="project-title">Desarrollo de Software en CleverCloud</h3>
+					</div>
+				</a>
+				<a href="#persona">
+					<div class="project-card">
+						<div class="project-image">
+							<img src="img/Persona_thumbnail.png" alt="">
+							<div class="project-number">2</div>
+						</div>
+						<h3 class="project-title">Guía de <i>Persona 5</i></h3>
+					</div>
+				</a>
+				<a href="#tetrissweeper">
+					<div class="project-card">
+						<div class="project-image">
+							<img src="img/tetrisweeper.png" alt="">
+							<div class="project-number">3</div>
+						</div>
+						<h3 class="project-title">Mezcla de Tetris y Buscaminas</h3>
+					</div>
+				</a>
+			</div>
+		</section>
+		<hr>
+	</div>
+	<!-- Proyecto 1 -->
+	<div class="container">
+		<!-- Hero del proyecto -->
+		<section class="project-hero">
+			<div class="project-header">
+				<h1 class="project-title-main" id="clever">Clever Cloud</h1>
+				<p class="project-subtitle">Desarrollo Web Full Stack</p>
+			</div>
+		</section>
+		
+		<!-- Imagen principal -->
+		<section class="project-showcase">
+			<div class="showcase-image">
+				<img src="../img/clever.png" alt="Clever Cloud">
+			</div>
+		</section>
+		
+		<!-- Información del proyecto -->
+		<section class="project-info">
+			<div class="info-grid">
+				<div class="info-card">
+					<div class="text-center">
+						<h3>Rol</h3>
+					</div>
+					<p>Desarrollador Full Stack</p>
+				</div>
+				<div class="info-card">
+					<div class="tech-container">
+						<h3>Tecnologías</h3>
+						<div class="tech-tags">
+							<span class="skill-tag orange">Vue</span>
+							<span class="skill-tag orange">Medoo</span>
+							<span class="skill-tag orange">Laravel</span>
+							<span class="skill-tag black">JavaScript</span>
+							<span class="skill-tag black">php</span>
+						</div>
+					</div>
+				</div>
+				<div class="info-card">
+					<div class="text-center">
+						<h3>Links</h3>
+					</div>
+					<div class="project-links">
+						<a href="https://www.clevercloud.mx/" class="link-btn">Empresa</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Desafíos y aprendizajes -->
+		<section class="project-learnings">
+			<h2>Descripción</h2>
+			<p class="project-content">A lo largo de medio año cursé mis prácticas profesionales en la empresa de
+				Desarrollo de Sowftware <i>Clever CLoud</i>. Durante este tiempo aprendí sobre la arquitectura que
+				manejaba la empresa y desarrollé varias soluciones para los clientes utilizando laravel (php), medoo,
+				Vue (JavaScript), Bootstrap y ayudé a implementar nuevas soluciones utilizando librerías como PDFmake
+				y chartJs 
+			</p>
+			<p class="project-content">
+				Mi trabajo en Clever Cloud consistía mayormente en automatizar procesos y crear interfaces que
+				facilitaran el manejo de datos. Dos de las implementaciones más importantes que hice fueron para el
+				negocio <a href="encuentosedu.com.mx">Fundación En Cuentos te Encuentro</a> que consisteron por un lado
+				en la creación de un sistema de gamificación para un curso en linea que permitía obtener medallas y
+				puntos canjeables cada que se terminaba una lección o se entregaba una tarea, y la automatización de
+				reportes estadísticos estilizados utilizando PDFmake y chartJs.
+			</p>
+		</section>
+		<hr>
+	</div>
+	<!-- Proyecto 2 -->
+	<div class="container">
+		<!-- Hero del proyecto -->
+		<section class="project-hero">
+			<div class="project-header">
+				<h1 class="project-title-main" id="persona">Guía de Persona 5</h1>
+				<p class="project-subtitle">Una guía interactiva para el videojuego Persona 5</p>
+			</div>
+		</section>
+		
+		<!-- Imagen principal -->
+		<section class="project-showcase">
+			<div class="showcase-image">
+				<img src="../img/persona.png" alt="Guía de Persona 5">
+			</div>
+		</section>
+		
+		<!-- Información del proyecto -->
+		<section class="project-info">
+			<div class="info-grid">
+				<div class="info-card">
+					<div class="text-center">
+						<h3>Rol</h3>
+					</div>
+					<p>Frontend Developer & UI Designer</p>
+				</div>
+				<div class="info-card">
+					<div class="tech-container">
+						<h3>Tecnologías</h3>
+						<div class="tech-tags">
+							<span class="skill-tag orange">JavaScript</span>
+							<span class="skill-tag orange">CSS</span>
+						</div>
+					</div>
+				</div>
+				<div class="info-card">
+					<div class="text-center">
+						<h3>Links</h3>
+					</div>
+					<div class="project-links">
+						<a href="https://ayuorusaguilar.github.io/Persona5_confidant_guide/" class="link-btn">Ver Demo</a>
+						<a href="#" class="link-btn secondary">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Desafíos y aprendizajes -->
+		<section class="project-learnings">
+			<h2>Descripción</h2>
+			<p class="project-content">La idea de este proyecto surge de una app de android que ya no existe.
+				Solía usarla para buscar información sobre el juego más cómodamente, pero debido a falta de
+				soporte, fue removida de la Google Play Store, así que decidí hacer algo parecido yo mismo.
+			</p>
+			<p class="project-content">
+				Este proyecto fue realmente divertido, <i>Persona 5</i> tiene una de mis direcciones artísticas
+				favoritas. Comencé este proyecto para entender mejor cómo funcionan JavaScript y Css, pues 
+				hasta la fecha sólo había trabajado con Vue y Bootstrap. Encontré más divertido programar mi 
+				propia lógica que depender de la caja negra que a veces pueden parecer estas librerías, pero 
+				entendí bien el valor que tienen, pues hacer este proyecto me tomó mucho más tiempo del que 
+				habría necesitado utilizando alguno de estos frameworks.
+			</p>
+		</section>
+		<hr>
+	</div>
+	<!-- Proyecto 3 -->
+	<div class="container">
+		<!-- Hero del proyecto -->
+        <section class="project-hero">
+            <div class="project-header">
+                <h1 class="project-title-main" id="tetrissweeper">Buscaminas x Tetris</h1>
+                <p class="project-subtitle">Un ejercicio para mejorar mis habilidades de programación</p>
+            </div>
+        </section>
+
+        <!-- Imagen principal -->
+        <section class="project-showcase">
+            <div class="showcase-image">
+                <img src="../img/tetrisweeper.png" alt="Tetrisweeper">
+            </div>
+        </section>
+
+        <!-- Información del proyecto -->
+        <section class="project-info">
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="text-center">
+                        <h3>Rol</h3>
+                    </div>
+                    <p>Programador y GameDesigner.</p>
+                </div>
+                <div class="info-card">
+                    <div class="tech-container">
+                        <h3>Tecnologías</h3>
+                        <div class="tech-tags">
+                            <span class="skill-tag black">Lua</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="text-center">
+                        <h3>Links</h3>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.lexaloffle.com/bbs/?tid=154535" class="link-btn">Ver Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Desafíos y aprendizajes -->
+        <section class="project-learnings">
+            <h2>Descripción</h2>
+            <p class="project-content">A modo de entretenimiento en unas vacaciones en las que el acceso a internet
+				era muy pobre, comencé a trabajar en esta idea para mejorar mis habilidades de programación. Viendo
+				el código ahora me doy cuenta de que podría mejorar muchísimo, pero hacerlo así, solucionando todo
+				por mi cuenta sin buscar apenas nada en internet mejoró mucho mis habilidades de resolución de 
+				problemas y mi creatividad.
+            </p>
+            <p class="project-content">Antes de meterme de lleno a este proyecto hice una versión separada del
+				<a href="https://www.lexaloffle.com/bbs/?tid=153805">buscaminas</a> y del 
+				<a href="https://www.lexaloffle.com/bbs/?tid=153683">tetris</a>, sólo para entender cómo funcionaban antes de meterme de lleno al proyecto
+				real.
+            </p>
+        </section>
+	</div>
+</body>
+</html>
